@@ -16,7 +16,6 @@
 .navbar {
   display: flex;
   align-items: center;
-  padding: 1rem 0;
 }
 
 .navbar-right {
@@ -95,7 +94,7 @@
 
 .nav-home {
   display: block;
-  background-color: #e5e7eb;
+  /* background-color: #e5e7eb; */
   padding: 0.3rem 1rem;
   cursor: pointer;
   color: #4b5563;
@@ -107,11 +106,10 @@
 
 .nav-not-home {
   display: block;
-  width: 100%;
   padding: 0.6rem;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #e5e7eb;
+  /* background-color: #e5e7eb; */
   margin: 2px;
   color: #4b5563;
   text-decoration: none;
@@ -199,7 +197,7 @@ a:hover {
 
 .zoom {
   overflow: hidden;
-  width: 225px;
+  width: 100%;
   height: 250px;
 }
 

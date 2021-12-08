@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="./style/products.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-left">
+          <!-- logo -->
+          <img class="logo" src="./assets/logo.jpg" alt="logo" />
+        </div>
+
+        <div class="navbar-right">
+          <!-- header -->
+          <div class="flex-header">
+            <div class="flex-cart">
+              <div>
+                <svg
+                  style="width: 1.5rem; color: #4338ca"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                  ></path>
+                </svg>
+              </div>
+              <div>Your Cart is Empty</div>
+            </div>
+
+            <div>|</div>
+            <div>Sign in</div>
+            <div>|</div>
+            <div>Register</div>
+          </div>
+
+          <!-- search box -->
+          <div class="searching">
+            <div>
+              <svg
+                style="width: 1.3rem; color: #9ca3af"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p style="font-weight: bolder">|</p>
+            </div>
+            <input type="search" placeholder="Find anything" />
+          </div>
+
+          <!-- navigation -->
+          <div id="navigation">
+            <a href="./index.html" class="nav nav-home">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+                />
+              </svg>
+            </a>
+            <a href="./what-is-new.html" class="nav nav-not-home">what's new</a>
+            <a href="./products.html" class="nav nav-not-home active"
+              >products</a
+            >
+            <a href="./cart.html" class="nav nav-not-home">Shopping Cart</a>
+            <a href="./about.html" class="nav nav-not-home">about us</a>
+            <a href="#contact-us" class="nav nav-not-home">contact us</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-content">
+        <div class="product-content-header">
+          <a href="./index.html">Home</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <a href="#products">Products</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <a href="#pajamas">Pajamas</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <p>Cami & Boyshort set</p>
+        </div>
+
+        <div class="product-content-body">
+          <div class="product-content-body-image">
+            <div class="product-content-body-main-image">
+              <img src="./assets/jacket1.jpg" />
+            </div>
+            <div class="product-content-body-sub-image">
+              <img src="./assets/jacket2.jpg" />
+              <img src="./assets/jacket3.jpg" />
+              <img src="./assets/jacket4.jpg" />
+              <img src="./assets/jacket5.jpg" />
+            </div>
+          </div>
+
+          <div class="product-content-body-description">
+            <div class="product-content-body-description-text">
+              <h2
+                style="font-weight: bold; color: #4f46e5; padding-bottom: 1rem"
+              >
+                Cami & Boyshort set
+              </h2>
+              <h4 style="color: #9ca3af; padding: 0.5rem 0">
+                CODE: Z0011CZSNI
+              </h4>
+              <h4 style="color: #6b7280">
+                A sigh for sleepy eyes. Eyelet cami with adjustable straps.
+              </h4>
+            </div>
+
+            <div class="product-content-body-description-price">
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  max-width: 150px;
+                "
+              >
+                <label style="color: #6b7280; font-size: 1.2rem">Colors:</label>
+                <select style="padding: 0.2rem">
+                  <option value="black" select>Black</option>
+                  <option value="white">white</option>
+                  <option value="Orange">Orange</option>
+                </select>
+              </div>
+
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  max-width: 300px;
+                  justify-content: space-between;
+                "
+              >
+                <div
+                  style="
+                    padding: 1rem 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 170px;
+                  "
+                >
+                  <label style="color: #6b7280; font-size: 1.2rem"
+                    >Sizes:</label
+                  >
+                  <select style="padding: 0.2rem">
+                    <option value="small" select>Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="extra-large">Extra large</option>
+                  </select>
+                </div>
+
+                <div
+                  style="display: flex; align-items: center; padding-left: 1rem"
+                >
+                  <label
+                    style="
+                      color: #6b7280;
+                      font-size: 1.2rem;
+                      padding-right: 1rem;
+                    "
+                    >Qty:
+                  </label>
+                  <input
+                    style="
+                      padding: 0.2rem 0;
+                      width: 3rem;
+                      text-align: center;
+                      outline: none;
+                    "
+                    type="number"
+                    value="1"
+                  />
+                </div>
+              </div>
+
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  width: 170px;
+                "
+              >
+                <label
+                  style="color: #6b7280; font-size: 1.2rem; padding-right: 1rem"
+                  >Price:
+                </label>
+                <div>
+                  <h3 style="font-weight: bold; font-size: xx-large">$34.90</h3>
+                  <h4
+                    style="font-weight: bold; font-size: larger; color: #dc2626"
+                  >
+                    SAVE $8.70
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content-body-description-action">
+              <div>
+                <button
+                  style="
+                    padding: 0.8rem;
+                    width: 140px;
+                    background-color: white;
+                    cursor: pointer;
+                  "
+                >
+                  WISH LIST
+                </button>
+                <button
+                  style="
+                    padding: 0.8rem;
+                    width: 140px;
+                    background-color: #4f46e5;
+                    cursor: pointer;
+                    color: white;
+                  "
+                >
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="max-width: 170px">
+            <img
+              style="width: 100%; border: 1px solid #d1d5db; cursor: pointer"
+              src="./assets/jacket6.jpg"
+            />
+            <img
+              style="width: 100%; border: 1px solid #d1d5db; cursor: pointer"
+              src="./assets/jacket7.jpg"
+            />
+          </div>
+        </div>
+
+        <div>
+          <fieldset  style="border: 1px solid #d1d5db; padding: 1rem">
+            <legend style="font-weight: bold; font-size: larger; color:#9CA3AF ">Description</legend>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+              <h3 style="max-width: 50%; padding: 1rem 0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+                dignissimos odio minima necessitatibus, in magnam, molestiae
+              </h3>
+              <h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+                dignissimos odio minima necessitatibus, in magnam, molestiae
+                repellendus et voluptatum autem enim at! Rerum dolore, asperiores
+                porro culpa impedit fugiat rem! Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Placeat molestias itaque harum
+                delectus aspernatur ipsum temporibus numquam. Amet veritatis
+                praesentium eveniet voluptatibus molestiae recusandae enim quasi
+                quas! Recusandae, ipsum officiis.
+              </h4>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div>
+          <h2>Customer Services</h2>
+          <p>Help Center</p>
+          <p>Report Abuse</p>
+          <p>Submit a Dispute</p>
+        </div>
+        <div>
+          <h2>My Account</h2>
+          <p>Sign in</p>
+          <p>Create account</p>
+        </div>
+        <div>
+          <h2>About Us</h2>
+          <p>Help Center</p>
+          <p>Report Abuse</p>
+          <p>Submit a Dispute</p>
+        </div>
+        <div id="contact-us">
+          <h2>Contact Us</h2>
+          <p>Enter your email address to receive spacial offers</p>
+          <div>
+            <input
+              style="
+                padding: 0.5rem;
+                margin: 0.6rem 0;
+                width: 100%;
+                outline: none;
+              "
+              type="email"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <button class="btn">Subscribe</button>
+          <div class="link">
+            <img src="./assets/fb.png" />
+            <img src="./assets/telegram.png" />
+            <img src="./assets/tiktok.png" />
+            <img src="./assets/twitter.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
